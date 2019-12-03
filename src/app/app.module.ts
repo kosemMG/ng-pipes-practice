@@ -13,6 +13,13 @@ import { FirstNPipe } from './pipes/first-n.pipe';
 import { FilterPipe } from './pipes/filter.pipe';
 import { MaxValPipe } from './pipes/max-val.pipe';
 import { MinValPipe } from './pipes/min-val.pipe';
+import { HighlightDirective } from './directives/highlight.directive';
+import { InvisibleDirective } from './directives/invisible.directive';
+import { EnlargerDirective } from './directives/enlarger.directive';
+import { CloudDirective } from './directives/cloud.directive';
+import { LoggerDirective } from './directives/logger.directive';
+import { LoggerValueDirective } from './directives/logger-value.directive';
+import { BlurDirective } from './directives/blur.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +34,13 @@ import { MinValPipe } from './pipes/min-val.pipe';
     FilterPipe,
     MaxValPipe,
     MinValPipe,
+    HighlightDirective,
+    InvisibleDirective,
+    EnlargerDirective,
+    CloudDirective,
+    LoggerDirective,
+    LoggerValueDirective,
+    BlurDirective,
   ],
   imports: [
     BrowserModule,
